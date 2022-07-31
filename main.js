@@ -19,7 +19,7 @@ function draw() {
 function take_snapshot() {
     name_of_user = document.getElementById("user_name").value;
     tint_used = tint_color;
-    save(name_of_user+"_"+tint_color+'.png');
+    save(name_of_user+"_"+tint_color+'.jpg');
 }
 
 function filter_tint() {
